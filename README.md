@@ -35,3 +35,9 @@ USER-BOB comunication:
 
 FREEDOM / NOT FREEDOM:
   Actual pressence of BOB404 in your computer is still to be established. I am currently not sure how deep BOB app should be allowed to go. Perpahs only fetching and tracking files, it would be start, but i am still not sure if BOB should be allowed to have acces to the system. 
+
+
+WORKING STATION and CONDITIONS:
+working in notepad++ editor, 
+must be py2.7 and py3.5 compatable ( maybe even more version if some kind soul wants to contribute )
+I personally dont use external modules, but if someone wants to contribute and write code that runs faster than mine with some module. Go for it, i will change it. 
