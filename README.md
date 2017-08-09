@@ -45,3 +45,5 @@ I personally dont use external modules, but if someone wants to contribute and w
 PERSONAL CONVENCTION:
 questions, ideas, jobs are taged with user(often me ) who asked them in comments, 
 my tag is ':D' , please use this syntax ":"+your initials if you have an idea or suggestion.
+
+-> additional info, i will not use ':D' tag or any comments when tryingout somethings, that is just test. 
