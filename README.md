@@ -19,7 +19,7 @@ GUI:
 
 -> additional info:
   Decided to go with hexadecimal limit for color system, so in future animation can go easly by defining steping variants of color, current lowest common denominator is 5 , since lcd(230,240) is 10 (2*5 ) with 23 and 24 steps respectfully. I personally belive that this will make my life easier when it becomes neccesery to implement color change animation by defining duration and steps needed for that duration. The duration of each change will influence the smoothness of transition so defining a time constant is next step when animating. So with base 5 , I can estimate that lcd can be 5,10,15,20,25 ... each defining number of steps.
-  When talking about color, I am talking about RGB values in tuple based data type, so there are 3 places with each containing values from 0 - 255 (0xff) so by that definition i accepted functional oriented programming paradigm. 
+  When talking about color, I am talking about RGB values in tuple based data type, so there are 3 places with each containing values from 0 - 255 (0xff) so by that definition i accepted functional oriented programming paradigm. # established, and completed, test pending
   
 Actions and control:
   GUI control, idea to control the gui is based upon command line and/or IP socket with BOB described port ( some free port ) to compensate for the long run time for future actions, BOB should have some "loading animation" emotion, or "working class" as i like to call it. 
