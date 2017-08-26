@@ -1,0 +1,48 @@
+BOB structure 
+
+  -GUI:
+    - retractable console 
+    - emotion animation
+    - structure of an eye
+    
+  -GUI application:
+    - question element : Input/Entry type of GUI element where you can ask BOB question:
+        -- first step: textual comunication
+        -- second step: text-to-speech and speech-to-text conversion representation in real time
+        -- third step: hidden :> voice only 
+    - response element: Text/Label type of GUI element where you can see BOBs response:
+        -- first step: chat-bot formulation :> database of structured asnwears: 
+            -> U: "What day it is?"
+            -> BOB: "Friday, date,month,time"
+        -- second step: Subject/Object differentiation in syntax. So BOB can be on topic.
+        -- third step: Responce activity : give BOB a task, and BOB does it. 
+            -> organisation :
+            -> common boring stuff automation :
+            -> scripting :
+            -> time scheduling :
+            -> miscelanious 
+        -- forth step: text-to-speech representation of default text
+        -- fifth step: hidden :> voice only 
+    - emotion representation: 
+        -- bit flags / emotion representation :
+            -> Angry when failed
+            -> for other emotions also
+
+  -cross programs comunication:
+    -GUI :> 
+        ->eye, 
+        ->console, 
+    -BASE :> 
+        ->organisatio segment, 
+        ->search segment, 
+        ->automation, 
+        ->scripting, 
+        ->scheduling ...
+    -IP/TCL :> comunication GUI-BASE
+    -DataBase :> common phrase comunication and question syntax differentiation 
+    -SPEECH syntexis :> 
+        -> text2speech,
+        -> speech2text,
+        -> audio_modulation component,
+        -> vocal database,
+    - LOGGING :>
