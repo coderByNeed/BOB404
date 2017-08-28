@@ -50,3 +50,42 @@ BOB structure
   -AI's:
     - Audio learning software :>
       -generates speach mimic software
+
+
+
+in short planed module structure:
+  /BOB:
+    -bob.config # configuration for BOB app
+    -GUI        # GUI py files
+      -/img : icons, images and etc
+      -/gui_layout
+      -/gui_control
+      -/gui database response
+        -/../syntax differential
+    -IP/TCL
+      -/control charachters 
+      -/control_system
+    -SPEECH
+      -/text to speech
+      -/speech to text
+      -/audio_library
+    -DATABASE
+      -/ db of acceptable controls
+      -/ db of restricted areas
+      -/ db of allowed areas
+      -/ db of areas with granted admin control
+    -AIs
+      -/ speech AI
+      -/ voice analysis AI
+      -/ emotion AI
+    -ERRORS
+      -/error log
+    -LOGS
+      -/logging log
+    -SYSTEM
+      -/bin
+        -/../data type conversion
+        -/../cross version manipulation
+      -/obj
+        -/../color.py
+      -/cnfg.config # system configuration based on OS system
