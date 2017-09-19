@@ -1,7 +1,13 @@
 # BOB404
 
 Manifest: 
-The idea is to make an virtual assistant that looks like BOB from tv series dimension 404. The BOB ( in future can be called BOB404 or BOB ) is planed to be written in pure python, and is to be able to transmit coded "emotions" ( angry/sad when task is not done, judgy when you postponed, but all that in cute manner ). The overall language the BOB will be written is closly tied to speed and performance of python, if python is shown to be slow, there is possibility that some parts of BOB app will be coded in low level language. 
+The idea is to make an virtual assistant that looks like BOB from tv series dimension 404. 
+
+reference image :https://pogd.es/assets/episodes/Dimension-404/Dimension-404-S01E05-3ff284961090a20c4e8c9e5661e25423-thumb.jpg   
+  
+BOB is big cubic brain that is used as biological proccesor unit with psihological issues. 
+
+The BOB ( in future can be called BOB404 or BOB ) is planed to be written in pure python, and is to be able to transmit coded "emotions" ( angry/sad when task is not done, judgy when you postponed, but all that in cute manner ). The overall language the BOB will be written is closly tied to speed and performance of python, if python is shown to be slow, there is possibility that some parts of BOB app will be coded in low level language. 
 
 BOB is in its infancy, the idea is still fluid and aspects of his assistancy can change over time. 
 
