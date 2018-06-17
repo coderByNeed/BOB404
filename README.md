@@ -16,7 +16,7 @@ One window a bit sassy assistant, that can schedule your work, track your progre
 
 Current workflow:
 An browser based SVG GUI - abandoned
-App/program based GUI - python > still on this idea
+App/program based GUI - python\tkinter > still on this idea
 
 GUI:
 - showing an emotion described by emotions.pdf
