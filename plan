@@ -40,18 +40,24 @@ BOB structure
         ->eye, 
         ->console, 
     -BASE :> 
-        ->organisatio segment, 
+        ->organisation segment, 
         ->search segment, 
         ->automation, 
         ->scripting, 
         ->scheduling ...
     -IP/TCL :> comunication GUI-BASE
     -DataBase :> common phrase comunication and question syntax differentiation 
-    -SPEECH syntexis :> 
+    -SPEECH syntesis :> 
         -> text2speech,
         -> speech2text,
-        -> audio_modulation component,
-        -> vocal database,
+        -> audio_modulation component
+            => pre-sampled and pre-quantisized signal generators
+            => function objects, inversable and differentiable 
+            => AUDIO recognition AI, genetic neural network based upon neuron = genome:> n*genome = genes : n&neurones = fittness
+        -> vocal database :>
+            => alphabet sound data, // stored in binary form with no reading wave files. 
+            => format genetic of sound data :> SSLLLLLLEEEEe byte form [ S - short start, L - vocal element , E - long ending element, e -- short ending element ]
+            => byte indexing 
     - LOGGING :>
 
   -AI's:
@@ -72,9 +78,13 @@ in short planed module structure:
     -IP/TCL
       -/control charachters 
       -/control_system
+      -/UDP protocol formating:> so it can be distinctive among other apps
     -SPEECH
       -/text to speech
       -/speech to text
+        --/microphone analysis
+        --/base formating
+          =/word flags:> flags that indentifys the letter with n degree of certanty
       -/audio_library
     -DATABASE
       -/ db of acceptable controls
@@ -82,9 +92,19 @@ in short planed module structure:
       -/ db of allowed areas
       -/ db of areas with granted admin control
     -AIs
-      -/ speech AI
+      -/ speech AI:
+        AI_at_end  # the app that starts AI analysis when app is about to close
+        AI_startup # starting genetic sequence with death time of n=2
       -/ voice analysis AI
+        u_data  # storing unusual user voice data, so BOB can speak more humanly
+        --/ signal generator
+        --/ genetic neural network
+        --/ base amplitude manipulation
+        --/ voice frequency shifter
+        --/ voice intonation functions
       -/ emotion AI
+         emotion recognition    # when it fails big it gets angry, when it is a little fail ... irritated
+         emotion implementation # to recognise when the error occurs and how to behave:> custom made errors
     -ERRORS
       -/error log
     -LOGS
@@ -94,5 +114,4 @@ in short planed module structure:
         -/../data type conversion
         -/../cross version manipulation
       -/obj
-        -/../color.py
       -/cnfg.config # system configuration based on OS system
